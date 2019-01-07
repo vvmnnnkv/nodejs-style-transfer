@@ -1,0 +1,90 @@
+body {
+    padding: 20px;
+    font: 14px Arial, sans-serif;
+    text-align: center;
+}
+
+a {
+    color: #00B7FF;
+}
+
+#img-area {
+    display: inline-block;
+    width: 224px;
+    height: 224px;
+    border: 7px solid #98ffca;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+#content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#text-area {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#text-area #text {
+    display: table-cell;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    background: #fafafa;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    table-layout: fixed;
+}
+
+#upload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff url("../img/spinner.gif") no-repeat center center;
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding-top: 40%;
+    opacity: 0.8;
+}
+
+#submit, #download {
+    text-transform: uppercase;
+    margin: 10px;
+    background: #98ffca;
+    border: 0;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#submit:focus, #download:focus {
+    outline: 0;
+}
+
+#submit[disabled], #download[disabled] {
+    display: none;
+}

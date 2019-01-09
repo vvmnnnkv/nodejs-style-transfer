@@ -25,7 +25,7 @@ Currently the only supported platform is Linux. libtorch does have Windows and M
 Checkout repo, install npm libraries, start app: 
 ```
 $ npm i
-$ npm start run
+$ npm run start
 ```
 Open http://localhost:3000/
 

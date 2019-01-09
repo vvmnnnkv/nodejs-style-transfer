@@ -155,6 +155,10 @@ function submitCanvas(canvas, url, type, cb) {
             cb(new Error(xhr.responseText));
         }
     };
+    xhr.timeout = 10000;
+    xhr.onerror = function() {
+        cb(new Error("Opps! Something failed, please re-try"));
+    };
     xhr.send(formData);
 }
 

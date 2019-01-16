@@ -1,6 +1,6 @@
 # Image Style Transfer with Node.JS 
 Demo of image style transfer app based on Node.js and Express 
-that uses [neural network model](https://github.com/pytorch/examples/tree/master/fast_neural_style) created and traced with Pytorch.
+that uses [fast neural style transfer](https://github.com/pytorch/examples/tree/master/fast_neural_style) model created and traced with Pytorch.
  
 ## Usage
 Open the site on your mobile or desktop, shoot or upload something, stylize :-)
@@ -20,10 +20,11 @@ The heavy lifting of image processing is done by [libtorch C++ library](https://
  created specially for this app to expose some bits of libtorch in JS.  
 
 ## Running
-Currently the only supported platform is Linux. libtorch does have Windows and Mac variants,
- but these are not included in [libtorchjs](https://www.npmjs.com/package/libtorchjs) yet.
+Currently supported platforms are Linux and Windows. libtorch does have Mac variant,
+ but it's not included in [libtorchjs](https://www.npmjs.com/package/libtorchjs) yet.
+GPU is also not supported yet.
 
-### Linux
+### Linux or Windows
 Checkout repo, install npm libraries, start app: 
 ```
 $ npm i

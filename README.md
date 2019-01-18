@@ -7,7 +7,7 @@ Open the site on your mobile or desktop, shoot or upload something, stylize :-)
 
 ![Image Style Transfer with Node.js](/docs/screenshot.png?raw=true "Image Style Transfer with Node.js")
 
-Live demo: http://nodejs-style.mooo.com:3000
+Live demo: https://nodejs-style-transfer.herokuapp.com
 
 ## Why? 
 This app is inspired by Lessons 6 & 9 of [Facebook Pytorch Scholarship](https://www.udacity.com/facebook-pytorch-scholarship).
